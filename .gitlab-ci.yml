@@ -1,5 +1,7 @@
 image: node:alpine
 
+before_script:
+  - "apk update -q && apk add -q openssh-client"
 build:
   stage: build
   script:
@@ -13,6 +15,8 @@ build:
 deploy:
   stage: deploy
   script:
+    - "mkdir /root/.ssh"
+    - "ssh-keyscan sprlng.de > /root/.ssh/known_hosts"
     - "./scripts/deploy.sh"
   only:
     - "master"
