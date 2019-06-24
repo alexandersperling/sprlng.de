@@ -16,7 +16,7 @@ deploy:
   stage: deploy
   script:
     - "echo \"${SSH_PRIVATE_KEY}\" > temp_id_rsa"
-    - "./scripts/deploy.sh"
+    - "./scripts/deploy.sh sprlng.de"
   only:
     - "master"
   tags:
