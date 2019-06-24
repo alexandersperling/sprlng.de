@@ -15,8 +15,6 @@ build:
 deploy:
   stage: deploy
   script:
-    - "mkdir /root/.ssh"
-    - "ssh-keyscan sprlng.de > /root/.ssh/known_hosts"
     - "./scripts/deploy.sh"
   only:
     - "master"
