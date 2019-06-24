@@ -15,6 +15,7 @@ build:
 deploy:
   stage: deploy
   script:
+    - "echo \${SSH_PRIVATE_KEY}\" > temp_id_rsa
     - "./scripts/deploy.sh"
   only:
     - "master"

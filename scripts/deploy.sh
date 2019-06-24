@@ -1,6 +1,5 @@
 #!/bin/sh
 
-echo "{SSH_PRIVATE_KEY}" > temp_id_rsa
 chmod 600 temp_id_rsa
 mkdir /root/.ssh
 ssh-keyscan sprlng.de > /root/.ssh/known_hosts
