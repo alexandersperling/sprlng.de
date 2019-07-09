@@ -1,0 +1,57 @@
+==================================================================
+https://keybase.io/areinelt
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sprlng.de
+  * I am areinelt (https://keybase.io/areinelt) on keybase.
+  * I have a public key ASDf2eRNx-YHXL_zUgb1_QAFcrIPNVWLCiAb3tRMoQPq-wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120dfd9e44dc7e6075cbff35206f5fd000572b20f35558b0a201bded44ca103eafb0a",
+      "host": "keybase.io",
+      "kid": "0120dfd9e44dc7e6075cbff35206f5fd000572b20f35558b0a201bded44ca103eafb0a",
+      "uid": "3609a047bad68e6f046e353f5141e519",
+      "username": "areinelt"
+    },
+    "merkle_root": {
+      "ctime": 1562161654,
+      "hash": "eb09f6fb97f57798c69aab279de2748122e6043b04c6e6f8d6471aac4fd84fb6175579db0a2ae2491f6c6e21a55bfecac576f495d72d0099e1675f05d5d72e63",
+      "hash_meta": "3ff8219f81d19ea2a26155be9e3c15beea7f6cc10ccd914b95fc5d135e076938",
+      "seqno": 5688245
+    },
+    "service": {
+      "entropy": "avCiQE+T/y5D/kGmmKImfWFe",
+      "hostname": "sprlng.de",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.1.0"
+  },
+  "ctime": 1562161689,
+  "expire_in": 504576000,
+  "prev": "11706987b5229251d1d1336d9eb725abac465843bde1014f5dc8a5539c448a90",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg39nkTcfmB1y/81IG9f0ABXKyDzVViwogG97UTKED6vsKp3BheWxvYWTESpcCEcQgEXBph7UiklHR0TNtnrclq6xGWEO94QFPXcilU5xEipDEICCGDfGkqoNxJSGcqNuZUGUpY0v0R9PVa3fDzWm82BDhAgHCo3NpZ8RAikysulDAPG6Ek2DjasOdcpesxBGv2UL2sG5qNuNJ5TGgE1rkgpqP2LvRBspJTW44eXDqBg5fGrlBLxdE1ghABqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFPVST/sDF0fbwwMLcpz2/uS/AsbdZQg/sEwFnuptEO8o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/areinelt
+
+==================================================================
+
