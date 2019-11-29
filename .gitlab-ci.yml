@@ -1,5 +1,8 @@
 image: node:alpine
 
+services:
+  - docker:19.03.1-dind
+
 before_script:
   - "apk update -q && apk add -q openssh-client"
 build:
