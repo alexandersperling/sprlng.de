@@ -29,6 +29,6 @@ build-docker-image:
   image: docker:latest
   stage: build
   script:
-    - "docker login -u ${CI_REGISTRY_USER} -p ${CI_REGISTRY_PASSWORD} ${CI_REGISTRY}"
-#  tags:
-#    - "asprlng"
+    - "docker login -u ${CI_REGISTRY_USER} --password-stdin ${CI_REGISTRY_PASSWORD} ${CI_REGISTRY}"
+    - "docker build -t ${CI_REGISTRY}/${CI_REGISTRY_IMAGE} .
+    - "docker push ${CI_REGISTRY}/${CI_REGISTRY_IMAGE}
