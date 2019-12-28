@@ -10,5 +10,5 @@ RUN 	apk update \
 ADD	config/homepage.conf /etc/nginx/conf.d/homepage.conf
 ADD	config/entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN	chmod +x /usr/local/bin/entrypoint.sh
-EXPOSE	80
+EXPOSE	8080
 ENTRYPOINT	["entrypoint.sh"]
