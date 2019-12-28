@@ -1,5 +1,5 @@
 FROM 	alpine:latest
-LABEL 	maintainer "Alexander Reinelt <alexander@reinelt.de.com>"
+LABEL 	maintainer "Alexander Sperling <alexander@sprlng.de>"
 RUN 	apk update \
 	&& apk add --no-cache nginx \
 	&& mkdir /var/www/homepage \
