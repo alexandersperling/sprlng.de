@@ -1,10 +1,8 @@
 image: node:alpine
 
-services:
-  - docker:19.03.1-dind
-
 before_script:
   - "apk update -q && apk add -q openssh-client"
+
 build:
   stage: build
   script:
@@ -12,8 +10,6 @@ build:
     - "./scripts/lint.sh"
   except:
     - "master"
-  tags:
-    - "asprlng"
 
 deploy:
   stage: deploy
@@ -23,11 +19,11 @@ deploy:
   only:
     - "master"
   when: manual
-  tags:
-    - "asprlng"
 
 build-docker-image:
   image: docker:latest
+  services:
+    - docker:19.03.1-dind
   stage: build
   script:
     - "echo ${CI_REGISTRY_PASSWORD} | docker login -u ${CI_REGISTRY_USER} --password-stdin ${CI_REGISTRY}"

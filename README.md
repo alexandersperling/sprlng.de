@@ -2,7 +2,7 @@
 
 [![pipeline status](https://gitlab.com/alexandersperling/sprlng.de/badges/master/pipeline.svg)](https://gitlab.com/alexandersperling/sprlng.de/commits/master)
 
-source code of my own homepage available [here](https://rnlt.de)
+source code of my own homepage available [here](https://sprlng.de)
 
 consists mainly of HTML and CSS
 
