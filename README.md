@@ -13,5 +13,5 @@ docker build -t homepage .
 ```
 
 ```bash
-docker run -d -p 80:80 -v /PATH/TO/REPO/:/var/www/homepage homepage
+docker run -d -p 80:8080 -v /PATH/TO/REPO/:/var/www/sprlng.de homepage
 ```
